@@ -1,0 +1,16 @@
+Getting and Cleaning Data
+=========================
+
+## Course Project
+
+* Unzip the source into your working directory, eg: /Users/username/R 
+
+* Then copy run_analysis.R into /Users/username/R/UCI HAR Dataset/
+
+* Set your working directory to where the run_analysis.R was copied to, eg: setwd("/Users/username/R/UCI HAR Dataset/")
+
+* you can either import run_analysic.R and run it using R studio or if you are using Mac or Linux simply run ./run_analysis.R in the command line.
+
+* this will produce an output file named "data_set_with_averages.txt"
+
+* to read the output use:  data <- read.table("data_set_with_the_averages.txt") 
